@@ -18,6 +18,11 @@ We are going to create an API using ASP.Net Entity Framework that will handle ou
       - Read endpoint
       - Update endpoint
       - Delete endpoint
+   - All CRUD operations for songs
+      - Create endpoint
+      - Read endpoint
+      - Update endpoint
+      - Delete endpoint
 - A database service layer for retrieving and storing artists, albums, and songs from the database and interacting with the controllers.
 
 ## Relationships
@@ -45,25 +50,11 @@ Entities
    - image
    - artist
    - songs (either as a string to be separated, or see below)
-   - reviews
    - record label
 - song
    - id
    - title
    - album
-- review
-   - reviewer name
-   - content
-   - album
 
 ## Stretch Tasks
-Implement all CRUD operations for songs
-- Create endpoint
-- Read endpoint
-- Update endpoint
-- Delete endpoint
-Implement all CRUD operations for reviews
-- Create endpoint
-- Read endpoint
-- Update endpoint
-- Delete endpoint
+Implement reviews, tied to each album, and implement all CRUD operations for them.
